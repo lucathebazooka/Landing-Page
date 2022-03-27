@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img 
+                id="header-img"
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" 
+                alt="original trombones logo"
+            />
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#how-it-works" class="nav-link">Products</a></li>
+                <li><a href="#pricing" class="nav-link">How We Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Handcrafted and Designed in Italy</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input 
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+                required
+            />
+            <input 
+                type="submit"
+                id="submit"
+                value="Get Started"
+                class="btn"
+            />
+        </form>
+    </section>
+    <div class="container">
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-fire fa-3x"></i>
+                </div>
+                <div class="desc">
+                    <h2>Premium Materials</h2>
+                    <p>Our wheels are made out of high quality materials sourced from world class facilities around the world</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-truck fa-3x"></i>
+                </div>
+                <div class="desc">
+                    <h2>Fast Shipping</h2>
+                    <p>Our wheels are shipped the day they are finished. We also provide free returns if you are not satisfied with you product.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa fa-battery-full fa-3x" aria-hidden="true"></i>
+                </div>
+                <div class="desc">
+                    <h2>Quality Assurance</h2>
+                    <p>All of our orders are thoroughly checked for damages and faults before shipping.</p>
+                </div>
+            </div>
+        </section>
+        <section id="how-it-works">
+            <iframe id="video" 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/1Qt3X6TCMcU" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+            ></iframe>
+        </section>
+        <section id="pricing" id="products">
+            <div class="product" id="hussla-savage">
+                <div class="level">Hussla Savage</div>
+                <h2>$320ea</h2>
+                <ol>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product" id="hussla-zen">
+                <div class="level">Hussla Zen</div>
+                <h2>$310ea</h2>
+                <ol>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product" id="hussla-shaz">
+                <div class="level">Hussla Shaz</div>
+                <h2>$370ea</h2>
+                <ol>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="#"></a>Privacy</li>
+                <li><a href="#"></a>Terms</li>
+                <li><a href="#"></a>Contact</li>
+            </ul>
+            <span>Copyright 2022, Pro Wheels</span>
+        </footer>
+    </div>
+</body>
+</html>
